@@ -1,0 +1,38 @@
+PODS:
+  - Cartography (0.6.0)
+  - Realm (1.0.1):
+    - Realm/Headers (= 1.0.1)
+  - Realm/Headers (1.0.1)
+  - RealmSwift (1.0.1):
+    - Realm (= 1.0.1)
+  - Result (1.0.2)
+  - Reveal-iOS-SDK (1.6.2)
+  - SwiftyBeaver (0.3.0)
+
+DEPENDENCIES:
+  - Cartography (~> 0.6)
+  - RealmSwift (~> 1.0)
+  - Result (~> 1.0)
+  - Reveal-iOS-SDK
+  - SwiftyBeaver (from `https://github.com/bzmario/SwiftyBeaver.git`)
+
+EXTERNAL SOURCES:
+  SwiftyBeaver:
+    :git: https://github.com/bzmario/SwiftyBeaver.git
+
+CHECKOUT OPTIONS:
+  SwiftyBeaver:
+    :commit: 2b722140ff6790ec3f22c73789ebffbdabe7910d
+    :git: https://github.com/bzmario/SwiftyBeaver.git
+
+SPEC CHECKSUMS:
+  Cartography: 70af183a248547694a8cfaa6b989cb7e04589985
+  Realm: 2e15e39d35b08abb529e212ed5d8af107b5236c8
+  RealmSwift: d73ea2af08c3676dbdd5e4b669651a0f492162a4
+  Result: dd3dd71af3fa2e262f1a999e14fba2c25ec14f16
+  Reveal-iOS-SDK: e2250b3c155bcfac53ae223ddc1f76d08f206c33
+  SwiftyBeaver: f45f52fc61c5573d95138021ae8bc7c03165ff55
+
+PODFILE CHECKSUM: 6f10fa21c44ac8e6fc2424bd2774781cf10a7f3b
+
+COCOAPODS: 1.0.1
